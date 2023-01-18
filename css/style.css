@@ -1,0 +1,76 @@
+img{
+    width: 900px;
+}
+body{
+    max-width: 900px;
+    margin: 0%;
+    position: absolute;
+    padding: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body>div.indice{
+    position: fixed;
+}
+body>div.cuerpo{
+    margin-left: 150px;
+    padding: 5px;
+    border: 1px grey solid;
+    text-align: justify;
+    
+}
+button{
+    background-image: linear-gradient(
+    to top,
+    rgb(145, 238, 40) 0%,
+    white 70%
+    );
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    color: black;
+    border: 1px gray solid;
+}  
+button:hover{
+    background-image: linear-gradient(
+        to top,
+        chocolate 0%, 
+        white 70%
+    );
+}  
+ul{
+    font-weight: 600;
+    padding-left: 2em;
+    text-align: center;
+    list-style: none;
+    border-style: none;
+    color: white;
+}
+h1 {
+    margin-left: 170px;
+}
+h2{
+    margin: 1%;
+    color: rgb(41, 156, 41);
+    border-bottom: rgb(173, 173, 173) 1px solid;
+}
+h3{
+    margin: 1%;
+    color: chocolate;
+}
+p{
+    margin: 1%;
+    font-weight: 600;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+body>div.autoria{
+    padding-left: 200px;
+    color: rgb(201, 200, 200);
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
