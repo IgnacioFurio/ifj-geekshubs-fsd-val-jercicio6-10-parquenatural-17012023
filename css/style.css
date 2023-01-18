@@ -54,11 +54,11 @@ h2{
     border-bottom: rgb(173, 173, 173) 1px solid;
 }
 h3{
-    margin: 1%;
+    margin: 15px;
     color: chocolate;
 }
 p{
-    margin: 1%;
+    margin: 15px;
     font-weight: 600;
 }
 a{
